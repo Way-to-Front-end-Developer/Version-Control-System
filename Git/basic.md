@@ -10,7 +10,9 @@ https://git-scm.com/
 - Что такое git ?  
 - Разница между git и github ?
 
-- Команды git:  
+- Команды git: 
+
+git pull, git fetch, git rebase, git reset, git revert
 git init,   
 git status,   
 git add,   
