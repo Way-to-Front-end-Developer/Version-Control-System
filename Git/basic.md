@@ -51,3 +51,6 @@ Cистемы контроля версий можно разделить на:
 
 **git vs github**
 https://www.geeksforgeeks.org/difference-between-git-and-github/****
+
+
+Основные команды:
