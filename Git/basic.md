@@ -1,7 +1,8 @@
 # Git
 
 https://git-scm.com/  
-https://docs.github.com/en/get-started/using-git/about-git
+https://docs.github.com/en/get-started/using-git/about-git  
+https://www.w3schools.com/git/default.asp?remote=github
 
 # GitHub
 
@@ -28,6 +29,8 @@ Cистемы контроля версий можно разделить на:
 **распределенные** (один или более клиентов, единственный сервер, содержащий все версии файлов проекта и каждый клиент может получить определенную версию целого проекта)
 
 # Basic
+
+Git is a version control system, helps you keep track of code changes, used to collaborate on code.
 
 **Git - это система контроля версий.** это хранилище базы данных для истории разработки проекта который содержит все версии его файлов как текущие так и старые уже не актуальны, мы добавляем в него начальной версии наших файлов и потом когда мы что-то редактировали то мы добавляем в git обновленную версию и git тоже себя записывает и что самое замечательное мы всегда можем залезть в это хранилище посмотреть что там лежит и восстановить предыдущие версии файлов особенно здорово то что гид может не только хранить версии но и позволяет обмениваться ими между разработчиками в отличие от простого копирования в git есть встроенные средства обнаружения конфликтов и интеграции изменений так что есть два разработчика вдруг даже поменяли один и тот же файл то они смогут это легко увидеть и объединить свои изменения а в простых случаях гид даже делает это автоматически
 
@@ -61,7 +64,19 @@ Main commands:
 
 Git commands:
 
-`git-pull` - updates the local line of development with updates from its remote counterpart.  
-The git fetch command downloads commits, files, and refs from a remote repository into your local repo. 
+`git pull` - updates the local line of development with updates from its remote counterpart.  
+`git fetch` - command downloads commits, files, and refs from a remote repository into your local repo. 
 
+`git pull vs git fetch`  
+https://www.geeksforgeeks.org/git-difference-between-git-fetch-and-git-pull/#:~:text=Git%20Fetch%20is%20the%20command,changes%20into%20the%20local%20repository.
+
+`git reset` - command is a complex and versatile tool for undoing changes  
+We reset our repository back to the specific commit using git reset commithash (commithash being the first 7 characters of the commit hash we found in the log).
+
+`git revert` - command we use when we want to take a previous commit and add it as a new commit, keeping the log intact.
+
+`git checkout vs git switch`  
+https://linuxhandbook.com/git-switch-checkout/#:~:text=Git%20checkout%20is%20the%20old,working%20tree%20without%20switching%20branches.
+
+`git log --oneline` - show all commits
 
