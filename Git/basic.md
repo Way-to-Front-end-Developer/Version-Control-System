@@ -1,6 +1,7 @@
 # Git
 
-https://git-scm.com/
+https://git-scm.com/  
+https://docs.github.com/en/get-started/using-git/about-git
 
 # GitHub
 
@@ -12,17 +13,14 @@ https://git-scm.com/
 
 - Команды git: 
 
-git pull, git fetch, git rebase, git reset, git revert
-git init,   
-git status,   
-git add,   
-git reset,   
-git commit,   
-git push,   
-git remote add origin,  
-git clone,
 
-**Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.**
+**Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.**     
+
+Developers can review project history to find out:  
+Which changes were made?  
+Who made the changes?  
+When were the changes made?  
+Why were changes needed?
 
 Cистемы контроля версий можно разделить на:  
 **локальные** (один клиент и локальные копии отдельных файлов)  
@@ -53,4 +51,17 @@ Cистемы контроля версий можно разделить на:
 https://www.geeksforgeeks.org/difference-between-git-and-github/****
 
 
-Основные команды:
+Main commands:
+
+`cd`  - to change this current working directory  
+`ls`  - command that lists the file contents of a directory.
+`dir` - in Command Prompt to list all of the files and folders in the current directory.
+`clear` - clear the terminal.  
+`rm` command can be used to remove individual files or a collection of files
+
+Git commands:
+
+`git-pull` - updates the local line of development with updates from its remote counterpart.  
+The git fetch command downloads commits, files, and refs from a remote repository into your local repo. 
+
+
