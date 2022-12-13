@@ -4,17 +4,6 @@ https://git-scm.com/
 https://docs.github.com/en/get-started/using-git/about-git  
 https://www.w3schools.com/git/default.asp?remote=github
 
-# GitHub
-
-Разобраться с git. Должны знать ответы на:  
-- Что такое система контроля версий ?  
-- Какие виды системы контроля версий бывают ?  
-- Что такое git ?  
-- Разница между git и github ?
-
-- Команды git: 
-
-
 **Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.**     
 
 Developers can review project history to find out:  
@@ -56,7 +45,8 @@ https://www.geeksforgeeks.org/difference-between-git-and-github/****
 
 Main commands:
 
-`cd`  - to change this current working directory  
+`cd`  - changes the current working directory.
+`mkdir` - makes a new directory.  
 `ls`  - command that lists the file contents of a directory.
 `dir` - in Command Prompt to list all of the files and folders in the current directory.
 `clear` - clear the terminal.  
@@ -64,6 +54,18 @@ Main commands:
 
 Git commands:
 
+`git init` - initialized empty Git repository in ...  
+
+**Note**: Git now knows that it should watch the folder you initiated it on.  
+Git creates a hidden folder to keep track of changes.
+
+Files in your Git repository folder can be in one of 2 states:  
+`Tracked` - files that Git knows about and are added to the repository  
+`Untracked` - files that are in your working directory, but not added to the repository
+
+One of the core functions of Git is the concepts of the `Staging Environment`, and the `Commit`.
+
+`git --version` - check version of git  
 `git pull` - updates the local line of development with updates from its remote counterpart.  
 `git fetch` - command downloads commits, files, and refs from a remote repository into your local repo. 
 
@@ -80,3 +82,13 @@ https://linuxhandbook.com/git-switch-checkout/#:~:text=Git%20checkout%20is%20the
 
 `git log --oneline` - show all commits
 
+`git command -help` -  See all the available options for the specific command  
+`git help --all` -   See all possible commands
+
+### Branch
+
+In Git, a `branch` is a new/separate version of the main repository.
+
+`git branch <branch>` - creates a new branch
+
+`-D` - flag for delete a branch
