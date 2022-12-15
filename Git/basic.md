@@ -85,6 +85,8 @@ https://linuxhandbook.com/git-switch-checkout/#:~:text=Git%20checkout%20is%20the
 `git command -help` -  See all the available options for the specific command  
 `git help --all` -   See all possible commands
 
+`origin` - in Git, `origin` is a shorthand name for the remote repository that a project was originally cloned from. More precisely, it is used instead of that original repository's URL - and thereby makes referencing much easier.
+
 ### Branch
 
 In Git, a `branch` is a new/separate version of the main repository.
