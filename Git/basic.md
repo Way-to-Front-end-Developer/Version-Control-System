@@ -67,7 +67,8 @@ One of the core functions of Git is the concepts of the `Staging Environment`, a
 
 `git --version` - check version of git  
 `git pull` - updates the local line of development with updates from its remote counterpart.  
-`git fetch` - command downloads commits, files, and refs from a remote repository into your local repo. 
+`git fetch` - command downloads commits, files, and refs from a remote repository into your local repo.   
+`git rebase` - 
 
 `git pull vs git fetch`  
 https://www.geeksforgeeks.org/git-difference-between-git-fetch-and-git-pull/#:~:text=Git%20Fetch%20is%20the%20command,changes%20into%20the%20local%20repository.
