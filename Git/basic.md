@@ -4,6 +4,9 @@ https://git-scm.com/
 https://docs.github.com/en/get-started/using-git/about-git  
 https://www.w3schools.com/git/default.asp?remote=github
 
+logo for git  
+https://worldvectorlogo.com/downloaded/typescript-2
+
 **Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.**     
 
 Developers can review project history to find out:  
